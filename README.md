@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com//dephraiim/react-bolt-lite"><img src="https://i.imgur.com/GpQk5wG.png" alt="React Bolt" width=128"></a>
+  <a href="https://github.com//dephraiim/react-bolt-lite"><img src="https://i.imgur.com/GpQk5wG.png" alt="React Bolt" width=128"><img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/screenshot_361.png?itok=w4CzcWyb" alt="React Bolt" width=128"></a>
 <br>
 <br>
-React Bolt Lite
+React Bolt Lite + Tailwind
 </h1>
 
 <p align="center">The best boilerplate for your React projects.</p>
@@ -41,7 +41,7 @@ For more features, click [here](https://github.com/leonardomso/react-bolt)
 
 ## Getting started
 
-1. Clone this repo using `https://github.com/dephraiim/react-bolt-lite.git`
+1. Clone this repo using `https://github.com/dephraiim/react-bolt-tailwind.git`
 2. Move to the appropriate directory: `cd react-bolt-lite`.<br />
 3. Run `yarn` or `npm install` to install dependencies.<br />
 4. Run `npm start` to see the example app at `http://localhost:8080`.
