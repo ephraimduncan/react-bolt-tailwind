@@ -4,10 +4,12 @@
 	"description": "⚡ The most simple & robust boilerplate for your React projects.",
 	"main": "src/index.js",
 	"scripts": {
-		"start": "cross-env NODE_ENV=development webpack-dev-server --open",
-		"build": "cross-env NODE_ENV=production webpack",
+		"start": "npm run watch:css && cross-env NODE_ENV=development webpack-dev-server --open",
+		"build": "npm run build:css && cross-env NODE_ENV=production webpack",
 		"lint": "eslint ./src/**/**.js",
-		"lint:fix": "eslint ./src/**/**.js --fix"
+		"lint:fix": "eslint ./src/**/**.js --fix",
+		"build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+		"watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
 	},
 	"keywords": [
 		"react",
@@ -42,6 +44,7 @@
 		"@babel/preset-react": "^7.0.0",
 		"@babel/register": "^7.0.0",
 		"@babel/runtime": "^7.3.1",
+		"autoprefixer": "^9.8.5",
 		"babel-core": "^7.0.0-bridge.0",
 		"babel-eslint": "^10.0.1",
 		"babel-loader": "^8.0.4",
@@ -61,9 +64,11 @@
 		"html-webpack-plugin": "^3.2.0",
 		"img-loader": "^3.0.1",
 		"node-sass": "^4.13.0",
+		"postcss-cli": "^7.1.1",
 		"postcss-loader": "^3.0.0",
 		"sass-loader": "^8.0.0",
 		"style-loader": "^1.0.1",
+		"tailwindcss": "^1.5.1",
 		"url-loader": "^3.0.0",
 		"webpack": "^4.41.3",
 		"webpack-cli": "^3.3.10",

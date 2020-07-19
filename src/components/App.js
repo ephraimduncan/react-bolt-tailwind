@@ -1,19 +1,18 @@
 import React from 'react';
-import '../css/styles.css';
 
 const App = () => (
-	<div className="container">
-		<div className="wrapper">
-			<h1 className="title">
+	<div className="flex justify-center items-center text-center h-screen">
+		<div>
+			<h1 className="text-5xl">
 				<span role="img" aria-label="Bolt">
 					⚡
 				</span>{' '}
-				React Bolt Lite
+				React Bolt + Tailwind
 			</h1>
-			<p className="p">
+			<p className="text-2xl">
 				Light version of{' '}
 				<a
-					className="link"
+					className="text-blue-400"
 					href="https://github.com/leonardomso/react-bolt"
 					target="_blank"
 				>
@@ -21,10 +20,10 @@ const App = () => (
 					boilerplate.
 				</a>
 			</p>
-			<p>
+			<p className="text-xl">
 				Read the article{' '}
 				<a
-					className="link"
+					className="text-blue-400"
 					href="https://medium.freecodecamp.org/a-complete-react-boilerplate-tutorial-from-zero-to-hero-20023e086c4a"
 					target="_blank"
 				>
