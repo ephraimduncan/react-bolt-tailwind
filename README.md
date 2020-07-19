@@ -23,7 +23,9 @@ React Bolt Lite + Tailwind
 
 This boilerplate contains all you need to start your next React.js project. Simple, robust, well-organized, all you need to do is clone, install and you're ready to start.
 
-This is a lite version of a larger project [here](https://github.com/leonardomso/react-bolt)
+This is a lite version of a larger project [here](https://github.com/dephraiim/react-bolt-lite.git)
+
+Without Tailwind [Here](https://github.com/leonardomso/react-bolt)
 
 There is an article for anyone who wants to learn how to build this boilerplate, if you want to learn just click [here](https://medium.freecodecamp.org/a-complete-react-boilerplate-tutorial-from-zero-to-hero-20023e086c4a).
 
@@ -31,7 +33,7 @@ There is an article for anyone who wants to learn how to build this boilerplate,
 
 This boilerplate features all the latest tools and practices in the industry.
 
-- ⚛ **React** — 16.12.0
+- ⚛ **React** — 16.12.0 with Hooks
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack** — Hot Reloading, Code Splitting, Optimized Build
 - 💅 **CSS** — CSS, Sass, **Tailwind, PostCSS with Autoprefixer**
