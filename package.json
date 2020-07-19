@@ -1,5 +1,5 @@
 {
-	"name": "react-bolt-lite",
+	"name": "react-bolt-tailwind",
 	"version": "1.0.0",
 	"description": "⚡ The most simple & robust boilerplate for your React projects.",
 	"main": "src/index.js",

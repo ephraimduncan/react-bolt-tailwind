@@ -34,7 +34,7 @@ This boilerplate features all the latest tools and practices in the industry.
 - ⚛ **React** — 16.12.0
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack** — Hot Reloading, Code Splitting, Optimized Build
-- 💅 **CSS** — CSS, Sass
+- 💅 **CSS** — CSS, Sass, **Tailwind, PostCSS with Autoprefixer**
 - 💖 **Lint** — ESlint
 
 For more features, click [here](https://github.com/leonardomso/react-bolt)
@@ -52,6 +52,8 @@ For more features, click [here](https://github.com/leonardomso/react-bolt)
 - `npm run build` - create a production ready build in `dist` folder
 - `npm run lint` - execute an eslint check
 - `npm run lint:fix` - execute an eslint and fix the errors
+- `npm run build:css` - build the tailwind css for production
+- `npm run watch:css` - watch for the compiling tailwind css with autoprefixes
 
 ## Next features:
 
